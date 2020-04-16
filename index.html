@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Modelo de realidad virtual</title>
+    <meta name="description" content="Modelo de realidad virtual">
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-sky src="https://cdn.glitch.com/b870d9ec-1139-44f9-b462-223e4a2c74e7%2Fsechelt.jpg?1490307995926" radius="30"></a-sky>
+
+      <a-box src="https://cdn.glitch.com/47a7d511-b293-4385-a612-0f8678638f06%2FteamPumii.jpg?v=1586316740329" position="-3 0.5 -4" rotation="0 30 0"></a-box>
+      <a-box src="https://cdn.glitch.com/47a7d511-b293-4385-a612-0f8678638f06%2FPUMII.png?v=1586315750791" position="0 0.5 -4" rotation="0 10 0" color="#E1EEED"></a-box>
+      <a-box src="https://cdn.glitch.com/47a7d511-b293-4385-a612-0f8678638f06%2FUNI.png?v=1586315776487" position="3 0.5 -4" rotation="0 80 0" color="#E1EEED"></a-box>
+      
+      
+      <a-sphere position="0 1.25 20" radius="1.25" color="#EF2D5E"></a-sphere>
+      <a-cylinder position="10 0.75 -3" rotation="-90 -45 0" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
+      <a-dodecahedron color="#4FB8B2" position="4 3 5"></a-dodecahedron>
+      <a-text value="Streaming del rover en mantenimiento, disfruta este modelo :D" color="#ffffff" position="0 2.5 -3" align="center"></a-text>
+      <a-torus-knot color="#B96FD3" position="-10 2 5" radius-tubular="0.05" p="7"></a-torus-knot>
+
+      <a-plane src="https://cdn.glitch.com/b870d9ec-1139-44f9-b462-223e4a2c74e7%2Ffloor.jpg?1490307896453" rotation="-90 0 0" height="100" width="100"></a-plane>
+
+      <a-light type="ambient" color="#666"></a-light>
+      <a-light type="point" intensity="" position="2 4 4"></a-light>
+    </a-scene>
+  </body>
+</html>
